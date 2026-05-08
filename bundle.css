@@ -1,0 +1,228 @@
+.post_card {
+    background-color: #f1f1f1;
+        margin-bottom:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left:20px;
+        padding-right:20px;
+        border-radius:10px;
+        margin-left:auto;
+        margin-right:auto;
+        display: inline-block; /* Essential for older browser compatibility */
+  width: 90%;           /* Ensures it takes up the full column width */
+  break-inside: avoid;   /* The magic line that prevents wrapping mid-post */
+  margin-bottom: 1.5rem;
+
+}
+
+.post-thumb {
+    float: center;
+    margin-right: 20px;
+    width: 100%;
+    border-radius:10px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+a {
+color:#ffffff;
+text-decoration:none;
+}
+a:visited {
+    color:#ffffff;
+}
+a:hover {
+    color:#9ed2ff;
+}
+
+.subtitle {
+    color: #d6ff9d;
+            letter-spacing: 1px;
+            font-family: Parkinsans;
+            font-size: 80%;
+            text-align: left;
+            padding-left:20px;
+            margin-top:0px;
+            padding-bottom:30px;
+}
+
+h2 {
+    color:rgb(34, 34, 34);
+    margin-top:0;
+    margin-bottom:0px;
+    font-family: Parkinsans; 
+    font-size:13pt
+}
+
+.post_date_main {
+    color:rgb(76, 76, 76); font-family:Parkinsans; font-size: 9pt; margin-top:0px;
+}
+
+.post_date {
+    color:rgb(103, 103, 103); font-family:Parkinsans; font-size: 9pt; margin-top:0px;    padding-left:0px;;
+}
+.post_title {
+    color:rgb(38, 38, 38);
+    margin-top:0;
+    margin-bottom:0px;
+    font-family: Parkinsans;
+    font-weight: bold;
+    font-size:13pt
+}
+.menu_bar {
+
+    position:absolute;
+    top:65px;
+    bottom:auto;
+    right:50px;
+
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        font-family:parkinsans;
+        font-size:10pt;
+  
+        padding-bottom:5px;
+        margin-bottom:10px;
+        color:#ffffff;
+}
+
+.menu_bar a {
+    color:#ffffff;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-decoration:none;
+    margin:5px;
+}
+
+.menu_bar a:hover {
+    background-color: #d6ff9d;
+    color: #303030;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 15px;
+    margin:5px;
+}
+
+.post_content{
+        color:rgb(60, 60, 60);
+        font-family:Parkinsans;
+        font-size: 10pt;
+}
+
+.post_content a:hover {
+    background-color: #d6ff9d;
+
+}
+
+.post_content_page{
+    color:#343434; font-family:Parkinsans; font-size: 10pt;
+    background-color: #f1f1f1;
+    margin-bottom:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:20px;
+    max-width: 950px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    background-color: #ffffff;
+	background-size: 48px 48px;
+}
+
+header {
+    background-color: #00518b;
+    height:150px;
+        max-width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 10px;
+}
+
+header a:hover{
+    color: #ffffff;
+}
+
+.site_title {
+    color:#ffffff;
+    font-family:Abril Fatface; 
+    font-size: 30px;;
+    padding-top:40px;
+    padding-left:17px;
+    text-align:left; 
+    margin-bottom:0px;
+    text-decoration:none;
+}
+
+.post_page_title {
+    color:rgb(38, 38, 38);
+    margin-top:0;
+    margin-bottom:0px;
+    font-family: Parkinsans;
+    font-weight: bold;
+    font-size:13pt;
+    padding-left: 0px;
+}
+
+.post-page-thumb {
+    float: center;
+    margin-right: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:10px;
+}
+
+footer {
+    background-color:#00518b;
+    width:100%;
+    margin-bottom:0;
+    height:150px;
+}
+
+.footer_content {
+
+    padding-top:65px;
+    padding-right: 50px;
+
+        margin-left:auto;
+        margin-right:auto;
+        text-align: right;
+        font-family:parkinsans;
+        font-size:10pt;
+  
+        padding-bottom:5px;
+        margin-bottom:10px;
+        color:#ffffff;
+}
+
+.footer_content a {
+    color:#ffffff;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-decoration:none;
+    margin:5px;
+}
+
+.footer_content a:hover {
+    background-color: #d6ff9d;
+    color: #303030;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 15px;
+    margin:5px;
+}
